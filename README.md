@@ -5,11 +5,11 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">Base de desenvolvimento Frontend - SMUL/ATIC</p>
+  <p align="center">SISPEUC 2024 - Projeto Front-end/p>
 
 ## Descrição
 
-Base de desenvolvimento frontend de SMUL/ATIC:
+SISPEUC 2024 de Projeto Front-end:
 
 - NEXT: https://nextjs.org/docs
 - MUI/JOYUI: https://mui.com/joy-ui/getting-started/
