@@ -17,7 +17,7 @@ interface BreadcrumbHeaderProps {
 const Container = styled(Box)(({ theme }) => ({
   backgroundColor: 'rgb(236, 242, 255)',
   padding: theme.spacing(2),
-  borderRadius: theme.shape.borderRadius,
+  // borderRadius: theme.shape.borderRadius,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'space-between',

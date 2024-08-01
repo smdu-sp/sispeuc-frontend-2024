@@ -4,7 +4,7 @@ import PageContainer from '@/app/(DashboardLayout)/components/container/PageCont
 // components
 import PropertiesList from './components/dashboard/PropertiesList';
 import PropertiesHistorical from './components/dashboard/PropertiesHistorical';
-import ExempleCard from './components/dashboard/ExempleCard';
+import ExampleCard from './components/dashboard/ExampleCard';
 import BreadcrumbHeader from './components/shared/BreadcrumbHeader';
 import MainNavigation from './components/dashboard/MainNavigation';
 
@@ -26,10 +26,10 @@ const Dashboard = () => {
             />
             <Grid container spacing={3}>
               <Grid item xs={12} lg={3}>
-                <ExempleCard />
+                <ExampleCard />
               </Grid>
               <Grid item xs={12} lg={3}>
-                <ExempleCard />
+                <ExampleCard />
               </Grid>
               <Grid item xs={12} lg={6}>
                 <PropertiesHistorical />

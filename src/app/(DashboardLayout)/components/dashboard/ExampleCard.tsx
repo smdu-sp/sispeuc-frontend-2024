@@ -7,7 +7,7 @@ import { IconArrowDownRight, IconArrowUpLeft, IconCurrencyDollar } from '@tabler
 
 import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCard';
 
-const ExempleCard = () => {
+const ExampleCard = () => {
   // chart color
   const theme = useTheme();
   const secondary = theme.palette.secondary.main;
@@ -80,4 +80,4 @@ const ExempleCard = () => {
   );
 };
 
-export default ExempleCard;
+export default ExampleCard;
