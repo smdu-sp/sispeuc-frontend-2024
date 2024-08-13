@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Pangram";
+    src:
+        local("Pangram"),
+        url("fonts/pangram/56a82ed18dbcec3eaab8c012dea226cf.woff") format("woff"),
+        url("fonts/pangram/56a82ed18dbcec3eaab8c012dea226cf.woff2") format("woff2"),
+}

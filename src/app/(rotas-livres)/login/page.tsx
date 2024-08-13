@@ -13,8 +13,10 @@ import { useRouter } from 'next/navigation';
 import { AlertsContext } from '@/providers/alertsProvider';
 
 function getWindowSize() {
-  const {innerWidth, innerHeight} = window;
-  return {innerWidth, innerHeight};
+  return {
+    innerWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
+    innerHeight: typeof window !== 'undefined' ? window.innerHeight : 0
+  };
 }
 
 export default function Login() {

@@ -5,11 +5,11 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">SISPEUC 2024 - Projeto Front-end</p>
+  <p align="center">Base de desenvolvimento Frontend - SMUL/ATIC</p>
 
 ## Descrição
 
-SISPEUC 2024 de Projeto Front-end:
+Base de desenvolvimento frontend de SMUL/ATIC:
 
 - NEXT: https://nextjs.org/docs
 - MUI/JOYUI: https://mui.com/joy-ui/getting-started/
@@ -17,17 +17,17 @@ SISPEUC 2024 de Projeto Front-end:
 ## Instalação
 
 ```bash
-$ npm install
+npm install
 ```
 
 ## Criando o arquivo .env
 
 ```bash
-$ copy example.env .env
+copy example.env .env
 ```
 
 ```bash
-$ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
 Copie o código gerado para o campo NEXTAUTH_SECRET no arquivo .env
@@ -38,13 +38,13 @@ Por padrão, a aplicação rodará na porta 3001.
 
 ```bash
 # atualiza a cada mudança nos arquivos
-$ npm run dev
+npm run dev
 ```
 ```bash
 # modo de desenvolvimento
-$ npm run start
+npm run start
 ```
 ```bash
 # modo de produção
-$ npm run prod
+npm run prod
 ```
